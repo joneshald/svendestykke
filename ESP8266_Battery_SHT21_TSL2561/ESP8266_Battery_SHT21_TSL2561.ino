@@ -46,7 +46,7 @@ void setup() {
   hostnameStr += ESP.getChipId(); // Hent ESP chip UID og tilføj til hostname
 
   WiFi.hostname(hostnameStr); // Sæt hostname
-  WiFi.begin("roving1", "gag0v44i"); // Connect to AP
+  WiFi.begin("ssid", "passphrase"); // Connect to AP
   
   //WiFi.config(IPAddress(IPSET_STATIC), IPAddress(IPSET_GATEWAY), IPAddress(IPSET_SUBNET), IPAddress(IPSET_DNS)); // Opsæt WiFi med statisk IP adresse
 
